@@ -6,7 +6,7 @@
 ส่งข้อมูลไปยัง KDS เรียกคิว และส่งมอบสินค้า พร้อมสร้างข้อมูลจำลอง
 เพื่อนำไปวิเคราะห์ด้วย Pandas, SQLite SQL และ BigQuery
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kunphat510214-netizen/Final-Final/blob/main/Coffee_Shop.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kunphat510214-netizen/Project-6-coffee-shop-/blob/main/Coffee_Shop.ipynb)
 
 ## Repository นี้ประกอบด้วย
 
