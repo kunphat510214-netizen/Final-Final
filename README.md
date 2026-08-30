@@ -11,32 +11,32 @@
 ## Repository นี้ประกอบด้วย
 
 - Source Code และผลการวิเคราะห์ทั้งหมดใน Jupyter Notebook:
-  [Coffee_Shop.ipynb](./Coffee_Shop.ipynb)
+  [Link](./Coffee_Shop.ipynb)
 - ไฟล์กราฟสรุปผลการวิเคราะห์:
-  [coffee_analysis.png](./coffee_analysis.png)
+  [Link](./coffee_analysis.png)
 - ฐานข้อมูล SQLite จำนวน 3 ตาราง ได้แก่ orders, members และ
   order_events:
-  [coffee_shop.db](./coffee_shop.db)
+  [Link](./coffee_shop.db)
 - โฟลเดอร์เก็บไฟล์ CSV:
-  [data](./data)
+  [Link](./data)
 
 ### ไฟล์ข้อมูลจำลอง
 
 - ข้อมูลออเดอร์ 300 รายการ:
-  [coffee_orders.csv](./data/coffee_orders.csv)
+  [Link](./data/coffee_orders.csv)
 - ข้อมูลสมาชิก 60 รายการ:
-  [members.csv](./data/members.csv)
+  [Link](./data/members.csv)
 - ประวัติการเปลี่ยนสถานะออเดอร์ 1,200 รายการ:
-  [order_events.csv](./data/order_events.csv)
+  [Link](./data/order_events.csv)
 
 ### ไฟล์ผลสรุปจาก BigQuery
 
 - ผลการวิเคราะห์ประสิทธิภาพของเมนู:
-  [summary_menu_performance.csv](./data/summary_menu_performance.csv)
+  [Link](./data/summary_menu_performance.csv)
 - ผลการวิเคราะห์ตามประเภทลูกค้า:
-  [summary_customer_type.csv](./data/summary_customer_type.csv)
+  [Link](./data/summary_customer_type.csv)
 - ผลการวิเคราะห์ตามประเภทเครื่องดื่ม:
-  [summary_drink_type.csv](./data/summary_drink_type.csv)
+  [Link](./data/summary_drink_type.csv)
 
 ## ความสามารถหลักของระบบ
 
@@ -49,15 +49,16 @@
    Aggregate Functions และ JOIN
 6. แสดงผลด้วยกราฟ 3 รูปแบบ พร้อมสรุปข้อค้นพบทางธุรกิจ
 
-## วิธีเปิดและรันโปรเจกต์
+## สมาชิกและบทบาทหน้าที่
 
-1. กดปุ่ม **Open in Colab** ด้านบน
-2. เลือกเมนู Runtime → Run all
-3. รอให้ระบบสร้างข้อมูล วิเคราะห์ SQL และแสดงกราฟจนเสร็จ
-4. ตรวจสอบว่าแต่ละเซลล์ไม่มี Error ก่อนบันทึกหรือส่งงาน
-
-> Notebook กำหนด random.seed(612104) จึงสร้างข้อมูลชุดเดิมเมื่อกด
-> Run All ใหม่ ทำให้ผลวิเคราะห์สามารถทำซ้ำได้
+1. น.ส.กุลภัสสร์ เคล้าโนนคร้อ 683020239-7
+   (ฝ่ายพัฒนาระบบ Source Code)
+2. น.ส.อรปรีญา เฉิดไธสง 683020599-7
+   (ฝ่ายจำลอง และสร้างฐานข้อมูล)
+3. นายธนกร สมหาญ 683020246-0
+   (ฝ่ายวิเคราะห์ และสรุปผลข้อมูล)
+4. นางสาวณัฐฐธิดา พันสวัสดิ์ 683020243-6
+   (ฝ่ายพัฒนาระบบ Source Code)
 
 ## เครื่องมือที่ใช้
 
